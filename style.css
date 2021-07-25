@@ -74,15 +74,27 @@ nav ul {
     color: var(--dark-gray);
 }
 .section-normal h1{
+    display: block;
     text-align: center;
-    padding-top: 4.1rem;
+    padding-top: 2.1rem;
+    font-size: 25px;
 
 }
 .section-normal{
-    padding-bottom:3rem ;
+    padding-bottom:1.8rem ;
 }
-.white-section{
+.section-normal p {
+    padding-bottom: 1rem;
+}
+.section-white {
     background-color:var(--gray);
+    padding-top: 0.1rem;
+    padding-bottom: 2rem;
+}
+.section-white h1{
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 25px;
 }
 footer{
     background-color: var(--primary-color);
