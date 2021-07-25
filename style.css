@@ -8,11 +8,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    
 }
 .link-primary{
     background-color: var(--primary-color);
@@ -38,6 +38,7 @@ hr{
     display: inline;
     padding: 0rem 0.5rem;
 }
+/* ----------------------------------------- */
 nav ul{
     text-align: right;
 }
