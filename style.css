@@ -2,19 +2,99 @@
 
 :root{
     --primary-color:#2563EB;
+    --gray: #F3F4F6;
+    --dark-gray:#6B7280;
 }
 body{
     font-family: 'Montserrat', sans-serif;
 }
 .link{
     text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    
 }
 .link-primary{
     background-color: var(--primary-color);
     color: white;
-    border-radius: 0.4rem;
-    padding: 0.5rem;
 }
 hr{
-    padding: 2rem,1rem;  
+    margin: 2rem 0rem;  
+}
+.link-secondary{
+    border: 0.1rem solid var(--primary-color);
+}
+.container{
+    margin: 0rem 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+.non-bullet{
+    list-style: none;
+}
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+nav ul{
+    text-align: right;
+}
+nav{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.7rem;
+    border-bottom-left-radius: 1rem;
+}
+nav h4{
+    margin-left: 0.4rem;
+    margin-top: 0.35rem;
+}
+.nav-page{
+    font-weight:bolder;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    padding: 0.8rem;
+}
+nav ul {
+    margin-bottom: 1.5rem;
+    margin-right: 0.5rem;
+}
+.header img{
+    display: block;
+    max-width: 310px;
+    margin:auto;
+}
+.header h1{
+    text-align: center;
+    color: var(--dark-gray);
+}
+.section-normal h1{
+    text-align: center;
+    padding-top: 4.1rem;
+
+}
+.section-normal{
+    padding-bottom:3rem ;
+}
+.white-section{
+    background-color:var(--gray);
+}
+footer{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+}
+footer div{
+    font-size:large;
+    font-weight: bold;
+}
+footer ul{
+    padding-inline-start: 0px;
 }
