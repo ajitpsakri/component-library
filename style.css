@@ -4,14 +4,16 @@
     --primary-color:#2563EB;
     --gray: #F3F4F6;
     --dark-gray:#6B7280;
+    --primary-link: 10rem;
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0rem;
 }
 
 .link{
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.7rem;
     border-radius: 0.5rem;
 }
 .link-primary{
@@ -41,16 +43,21 @@ hr{
 /* ----------------------------------------- */
 nav ul{
     text-align: right;
+    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
+    padding-bottom: 1rem;
 }
 nav{
     background-color: var(--primary-color);
     color: white;
-    padding: 0.7rem;
+    padding: 1px;
     border-bottom-left-radius: 1rem;
 }
 nav h4{
-    margin-left: 0.4rem;
-    margin-top: 0.35rem;
+    margin-left: 0.8rem;
+    margin-top: 0.7rem;
+    font-size: 15px;
+    margin-bottom: 0.2rem;
 }
 .nav-page{
     font-weight:bolder;
@@ -58,20 +65,22 @@ nav h4{
 nav ul a{
     text-decoration: none;
     color: white;
-    padding: 0.8rem;
+    padding: 0.5rem;
+    font-size: 13px;
 }
 nav ul {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.2rem;
     margin-right: 0.5rem;
 }
 .header img{
     display: block;
-    max-width: 310px;
+    max-width: 450px;
     margin:auto;
 }
 .header h1{
     text-align: center;
     color: var(--dark-gray);
+    font-size: 30px;
 }
 .section-normal h1{
     display: block;
@@ -109,5 +118,35 @@ footer div{
     font-weight: bold;
 }
 footer ul{
+    padding-inline-start: 0px;
+}
+
+.theme-color{
+    color:var(--primary-color)
+}
+.icons{
+    padding: 3.5rem;
+}
+.text-center{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 0rem 1rem;
+}
+
+footer small{
+    color: var(--dark-gray);
+}
+.section-projects img{
+    width: 1.5rem;
+}
+
+.projects-icon{
+    padding-inline-start: 40px;
+}
+
+.section-projects ul{
     padding-inline-start: 0px;
 }
