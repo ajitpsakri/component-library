@@ -150,3 +150,6 @@ footer small{
 .section-projects ul{
     padding-inline-start: 0px;
 }
+.container-center li{
+    margin: 3rem 0rem;
+}
