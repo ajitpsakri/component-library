@@ -141,7 +141,8 @@ footer a{
 }
 
 footer small{
-    color: var(--dark-gray);
+    color: var(--gray);
+    
 }
 .section-projects img{
     width: 1.5rem;
