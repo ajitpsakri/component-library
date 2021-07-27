@@ -128,8 +128,9 @@ footer ul{
     color:var(--primary-color)
 }
 .icons{
-    padding: 3.5rem;
+    padding: 1.5rem; 
 }
+
 .text-center{
     text-align: center;
 }
@@ -160,4 +161,8 @@ footer{
     position: fixed;
     width: 100%;
     bottom: 0px;
+}
+.section-icons ul{
+    padding-inline-start: 0px;
+    margin: 0rem 0rem;
 }
