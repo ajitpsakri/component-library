@@ -157,11 +157,7 @@ footer small{
 .container-center li{
     margin: 3rem 0rem;
 }
-footer{
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-}
+
 .section-icons ul{
     padding-inline-start: 0px;
     margin: 0rem 0rem;
