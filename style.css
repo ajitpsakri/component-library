@@ -170,3 +170,12 @@ footer .fab ,.fas{
 
 /* Alt+Z Px to rem, and rem to px.*/
 /* 1rem = 16px */
+@media (max-width:362px) {
+    nav h4{
+        display: none;
+    }
+    nav ul{
+        text-align: center;
+
+    }
+}
