@@ -11,7 +11,7 @@ body{
     margin: 0rem;
 }
 main{
-    margin-bottom: 167px;
+    margin-bottom: 10.4375rem;
 }
 .link{
     text-decoration: none;
@@ -32,7 +32,7 @@ hr{
     margin: 0rem 1rem;
 }
 .container-center{
-    max-width: 600px;
+    max-width: 37.5rem;
     margin: auto;
 }
 .non-bullet{
@@ -52,13 +52,13 @@ nav ul{
 nav{
     background-color: var(--primary-color);
     color: white;
-    padding: 1px;
+    padding: 0.0625rem;
     border-bottom-left-radius: 1rem;
 }
 nav h4{
     margin-left: 0.8rem;
     margin-top: 0.7rem;
-    font-size: 15px;
+    font-size: 0.9375rem;
     margin-bottom: 0.2rem;
 }
 .nav-page{
@@ -68,7 +68,7 @@ nav ul a{
     text-decoration: none;
     color: white;
     padding: 0.7rem;
-    font-size: 19px;
+    font-size: 1.1875rem;
 }
 nav ul {
     margin-bottom: 0.2rem;
@@ -76,19 +76,19 @@ nav ul {
 }
 .header img{
     display: block;
-    max-width: 450px;
+    width: 45%;
     margin:auto;
 }
 .header h1{
     text-align: center;
     color: var(--dark-gray);
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 .section-normal h1{
     display: block;
     text-align: center;
     padding-top: 2.1rem;
-    font-size: 25px;
+    font-size: 1.5625rem;
 
 }
 .section-normal{
@@ -105,7 +105,7 @@ nav ul {
 .section-white h1{
     text-align: center;
     padding-top: 1.5rem;
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 footer{
     background-color: var(--primary-color);
@@ -120,7 +120,7 @@ footer div{
     font-weight: bold;
 }
 footer ul{
-    padding-inline-start: 0px;
+    padding-inline-start: 0rem;
     margin: 1rem 0rem 0rem 0rem;
 }
 
@@ -149,24 +149,24 @@ footer small{
 }
 
 .projects-icon{
-    padding-inline-start: 40px;
+    padding-inline-start: 2.5rem;
 }
 
 .section-projects ul{
-    padding-inline-start: 0px;
+    padding-inline-start: 0rem;
 }
 .container-center li{
     margin: 3rem 0rem;
 }
 
 .section-icons ul{
-    padding-inline-start: 0px;
+    padding-inline-start: 0rem;
     margin: 0rem 0rem;
 }
 footer .fab ,.fas{
-    font-size: 25px;
+    font-size: 1.5625rem;
     margin-bottom: 1rem;
+}
 
-  }
-  
-  
+/* Alt+Z Px to rem, and rem to px.*/
+/* 1rem = 16px */
